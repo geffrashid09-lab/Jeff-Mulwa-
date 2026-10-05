@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeff Mulwa | ICT Student & Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f5f7fb;
+    }
+
+    header {
+      background: #0b1f3a;
+      color: white;
+      padding: 20px 8%;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav h2 {
+      color: #4da3ff;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #4da3ff;
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, #0b1f3a, #123e68);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 3.2rem;
+      margin-bottom: 15px;
+    }
+
+    .hero span {
+      color: #4da3ff;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      background: #4da3ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-right: 10px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #2384df;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #0b1f3a;
+      font-size: 2rem;
+    }
+
+    .about, .contact-box {
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .skill, .project {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .skill {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .project h3 {
+      color: #0b1f3a;
+      margin-bottom: 10px;
+    }
+
+    .education {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .education div {
+      background: white;
+      margin-bottom: 20px;
+      padding: 25px;
+      border-left: 5px solid #4da3ff;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+    }
+
+    .contact-box p {
+      margin: 12px 0;
+    }
+
+    footer {
+      background: #0b1f3a;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media (max-width: 700px) {
+      nav {
+        gap: 15px;
+      }
+
+      nav ul {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <h2>Jeff Mulwa</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Hello, I'm <span>Jeff Mulwa</span></h1>
+    <p>
+      ICT Student, Technology Enthusiast and Aspiring Software Developer.
+      I am passionate about technology, web development and creating
+      solutions that make a difference.
+    </p>
+    <a href="#projects" class="btn">View My Projects</a>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="about">
+    <p>
+      I am an ICT student with a strong interest in software development,
+      web technologies and digital solutions. I enjoy learning new
+      technologies and turning ideas into practical projects.
+    </p>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="section-title">Education</h2>
+
+  <div class="education">
+    <div>
+      <h3>Mount Kenya University</h3>
+      <p>Information and Communication Technology (ICT)</p>
+      <p>Undergraduate Student</p>
+    </div>
+
+    <div>
+      <h3>Kenya Certificate of Secondary Education</h3>
+      <p>KCSE — Mean Grade: C Plain</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">My Skills</h2>
+
+  <div class="skills">
+    <div class="skill">HTML & CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">Web Development</div>
+    <div class="skill">Computer Networking</div>
+    <div class="skill">Database Concepts</div>
+    <div class="skill">Git & GitHub</div>
+    <div class="skill">ICT Support</div>
+    <div class="skill">Problem Solving</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">My Projects</h2>
+
+  <div class="projects">
+
+    <div class="project">
+      <h3>Yatta Technical And Vocational College System</h3>
+      <p>
+        A prototype concept for a digital platform for
+        Yatta Technical And Vocational College.
+      </p>
+      <p><strong>Motto:</strong> Technology is the future</p>
+    </div>
+
+    <div class="project">
+      <h3>Personal Portfolio Website</h3>
+      <p>
+        A responsive portfolio website showcasing my education,
+        technical skills, projects and professional information.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>GitHub Projects</h3>
+      <p>
+        My GitHub repository contains my coding projects and
+        practical experiments as I continue developing my ICT skills.
+      </p>
+      <br>
+      <a href="https://github.com/geffrashid09-lab" class="btn" target="_blank">
+        View GitHub
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact Me</h2>
+
+  <div class="contact-box">
+    <p><strong>Email:</strong> geffrashid09@gmail.com</p>
+    <p>
+      <strong>GitHub:</strong>
+      <a href="https://github.com/geffrashid09-lab" target="_blank">
+        github.com/geffrashid09-lab
+      </a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Jeff Mulwa. All Rights Reserved.</p>
+  <p>ICT Student & Technology Enthusiast</p>
+</footer>
+
+</body>
+</html>
