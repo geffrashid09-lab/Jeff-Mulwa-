@@ -3,310 +3,223 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Jeff Mulwa, an ICT undergraduate at Mount Kenya University building practical web and backend solutions.">
+  <meta name="theme-color" content="#0b1424">
   <title>Jeff Mulwa | ICT Student & Developer</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #222;
-      background: #f5f7fb;
-    }
-
-    header {
-      background: #0b1f3a;
-      color: white;
-      padding: 20px 8%;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    nav h2 {
-      color: #4da3ff;
-    }
-
-    nav ul {
-      display: flex;
-      list-style: none;
-      gap: 20px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #4da3ff;
-    }
-
-    section {
-      padding: 70px 8%;
-    }
-
-    .hero {
-      min-height: 90vh;
-      display: flex;
-      align-items: center;
-      background: linear-gradient(135deg, #0b1f3a, #123e68);
-      color: white;
-    }
-
-    .hero h1 {
-      font-size: 3.2rem;
-      margin-bottom: 15px;
-    }
-
-    .hero span {
-      color: #4da3ff;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 700px;
-      margin-bottom: 25px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 12px 22px;
-      background: #4da3ff;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      margin-right: 10px;
-      font-weight: bold;
-    }
-
-    .btn:hover {
-      background: #2384df;
-    }
-
-    .section-title {
-      text-align: center;
-      margin-bottom: 40px;
-      color: #0b1f3a;
-      font-size: 2rem;
-    }
-
-    .about, .contact-box {
-      max-width: 900px;
-      margin: auto;
-      text-align: center;
-    }
-
-    .skills {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 20px;
-    }
-
-    .skill, .project {
-      background: white;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    }
-
-    .skill {
-      text-align: center;
-      font-weight: bold;
-    }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-    }
-
-    .project h3 {
-      color: #0b1f3a;
-      margin-bottom: 10px;
-    }
-
-    .education {
-      max-width: 800px;
-      margin: auto;
-    }
-
-    .education div {
-      background: white;
-      margin-bottom: 20px;
-      padding: 25px;
-      border-left: 5px solid #4da3ff;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
-    }
-
-    .contact-box p {
-      margin: 12px 0;
-    }
-
-    footer {
-      background: #0b1f3a;
-      color: white;
-      text-align: center;
-      padding: 25px;
-    }
-
-    @media (max-width: 700px) {
-      nav {
-        gap: 15px;
-      }
-
-      nav ul {
-        width: 100%;
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-
-      .hero h1 {
-        font-size: 2.2rem;
-      }
-    }
+    :root{--bg:#0b1424;--panel:#111f34;--panel2:#152740;--text:#edf4ff;--muted:#a9b8cc;--accent:#55c2ff;--line:#263b56;--max:1100px}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.7;background:var(--bg);color:var(--text)}
+    a{color:var(--accent)}a:focus-visible{outline:3px solid #fff;outline-offset:4px}
+    .wrap{width:min(var(--max),90%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(11,20,36,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-weight:800;font-size:1.2rem;color:var(--text);text-decoration:none;letter-spacing:.3px}
+    .brand span{color:var(--accent)}
+    nav ul{display:flex;gap:22px;list-style:none;flex-wrap:wrap}
+    nav a{text-decoration:none;color:var(--muted);font-size:.94rem;font-weight:600}
+    nav a:hover{color:var(--accent)}
+    section{padding:82px 0}
+    .hero{padding:112px 0 100px;background:radial-gradient(ellipse at 80% 15%,#17446a 0,transparent 42%),linear-gradient(135deg,#0b1424,#10243b)}
+    .eyebrow{color:var(--accent);font-weight:750;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
+    h1{font-size:clamp(2.6rem,7vw,5rem);line-height:1.08;letter-spacing:-2px;margin:16px 0}
+    h1 span{color:var(--accent)}
+    .hero p{max-width:720px;color:#c4d2e3;font-size:1.12rem}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;padding:11px 19px;border-radius:8px;text-decoration:none;font-weight:750;border:1px solid var(--accent);background:var(--accent);color:#071525}
+    .btn.secondary{background:transparent;color:var(--text);border-color:#49627f}
+    .btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
+    .section-head{margin-bottom:30px}
+    .section-head h2{font-size:clamp(1.8rem,4vw,2.5rem);letter-spacing:-.7px}
+    .section-head p,.muted{color:var(--muted)}
+    .about-grid,.project-grid,.skill-grid{display:grid;gap:18px}
+    .about-grid{grid-template-columns:1.4fr 1fr}
+    .panel,.project,.skill-group,.education-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}
+    .panel p+p{margin-top:12px}
+    .facts{display:grid;gap:12px}
+    .fact{padding-bottom:10px;border-bottom:1px solid var(--line)}
+    .fact:last-child{border:0;padding:0}
+    .fact strong{display:block;color:var(--text)}
+    .fact span{color:var(--muted);font-size:.94rem}
+    .education-card{border-left:4px solid var(--accent)}
+    .education-card+.education-card{margin-top:15px}
+    .education-card h3{margin-bottom:5px}
+    .tagline{color:var(--accent);font-weight:700;font-size:.9rem}
+    .skill-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .skill-group h3{margin-bottom:12px}
+    .chips{display:flex;gap:8px;flex-wrap:wrap}
+    .chip{font-size:.88rem;color:#d8e7f7;background:var(--panel2);border:1px solid #2c4664;padding:6px 10px;border-radius:999px}
+    .note{font-size:.9rem;color:var(--muted);margin-top:16px}
+    .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .project{display:flex;flex-direction:column;gap:12px}
+    .project.featured{border-color:#397aa6;background:linear-gradient(145deg,#142c46,#111f34)}
+    .project h3{font-size:1.2rem}
+    .project p{color:var(--muted)}
+    .project .links{display:flex;gap:15px;flex-wrap:wrap;margin-top:auto;padding-top:8px;font-weight:700}
+    .status{display:inline-block;width:max-content;border:1px solid #41617e;color:#a9dfff;border-radius:999px;padding:3px 9px;font-size:.76rem;font-weight:750}
+    .contact{background:#101e31;border-top:1px solid var(--line)}
+    .contact-card{max-width:720px}
+    .contact-card p{margin:8px 0;color:var(--muted)}
+    footer{padding:24px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+    footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    @media(max-width:760px){nav{padding:14px 0;align-items:flex-start;flex-direction:column}nav ul{gap:12px 17px}.hero{padding:82px 0}.about-grid,.skill-grid,.project-grid{grid-template-columns:1fr}section{padding:64px 0}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
   </style>
 </head>
-
 <body>
+  <header>
+    <nav class="wrap" aria-label="Main navigation">
+      <a class="brand" href="#home">JEFF<span>.</span></a>
+      <ul>
+        <li><a href="#about">About</a></li><li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li><li><a href="#achievements">Achievements</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-  <nav>
-    <h2>Jeff Mulwa</h2>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap">
+        <p class="eyebrow">ICT Undergraduate · Practical Problem Solver</p>
+        <h1>Hello, I'm<br><span>Jeff Mulwa.</span></h1>
+        <p>I am an Information and Communication Technology undergraduate at Mount Kenya University, building practical web applications and strengthening my skills in full-stack development, databases and backend engineering.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">Explore my projects</a>
+          <a class="btn secondary" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
 
-<section class="hero">
-  <div>
-    <h1>Hello, I'm <span>Jeff Mulwa</span></h1>
-    <p>
-      ICT Student, Technology Enthusiast and Aspiring Software Developer.
-      I am passionate about technology, web development and creating
-      solutions that make a difference.
-    </p>
-    <a href="#projects" class="btn">View My Projects</a>
-    <a href="#contact" class="btn">Contact Me</a>
-  </div>
-</section>
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">A little about me</p><h2>Learning by building</h2></div>
+        <div class="about-grid">
+          <div class="panel">
+            <p>I am an ICT undergraduate who enjoys turning community and business challenges into useful digital solutions. My learning is project-driven: I plan, build, test and improve applications while developing a stronger understanding of how their frontend, backend and databases work together.</p>
+            <p>My current interests include full-stack web development, PostgreSQL, application security, database design and reliable backend systems. I am working towards becoming a capable backend engineer while continuing to grow as a full-stack developer.</p>
+          </div>
+          <div class="panel facts">
+            <div class="fact"><strong>Current focus</strong><span>Full-stack development and backend engineering</span></div>
+            <div class="fact"><strong>Based in</strong><span>Kenya</span></div>
+            <div class="fact"><strong>Approach</strong><span>Practical projects, testing and continuous learning</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="about">
-  <h2 class="section-title">About Me</h2>
-  <div class="about">
-    <p>
-      I am an ICT student with a strong interest in software development,
-      web technologies and digital solutions. I enjoy learning new
-      technologies and turning ideas into practical projects.
-    </p>
-  </div>
-</section>
+    <section id="education">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">My learning journey</p><h2>Education</h2></div>
+        <div class="education-card">
+          <p class="tagline">Currently studying</p>
+          <h3>Mount Kenya University</h3>
+          <p>Undergraduate studies in Information and Communication Technology (ICT).</p>
+        </div>
+        <div class="education-card">
+          <h3>Kenya Certificate of Secondary Education</h3>
+          <p>KCSE — Mean Grade: C Plain.</p>
+        </div>
+      </div>
+    </section>
 
-<section id="education">
-  <h2 class="section-title">Education</h2>
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Tools and technologies</p><h2>Skills I'm developing</h2><p class="muted">These reflect my current learning and hands-on project experience, not claims of expert-level mastery.</p></div>
+        <div class="skill-grid">
+          <div class="skill-group"><h3>Frontend development</h3><div class="chips"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">Responsive design</span><span class="chip">English / Kiswahili UI</span></div></div>
+          <div class="skill-group"><h3>Backend & databases</h3><div class="chips"><span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">Supabase</span><span class="chip">Database design</span><span class="chip">REST API concepts</span></div></div>
+          <div class="skill-group"><h3>Security & application logic</h3><div class="chips"><span class="chip">Authentication concepts</span><span class="chip">Role-based access</span><span class="chip">Row Level Security</span><span class="chip">Input validation</span><span class="chip">Testing & debugging</span></div></div>
+          <div class="skill-group"><h3>Tools & workflow</h3><div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Vercel</span><span class="chip">Supabase CLI</span><span class="chip">PowerShell</span><span class="chip">ICT support</span></div></div>
+        </div>
+        <p class="note">I continue to strengthen these skills through coursework, independent study and the projects below.</p>
+      </div>
+    </section>
 
-  <div class="education">
-    <div>
-      <h3>Mount Kenya University</h3>
-      <p>Information and Communication Technology (ICT)</p>
-      <p>Undergraduate Student</p>
-    </div>
 
-    <div>
-      <h3>Kenya Certificate of Secondary Education</h3>
-      <p>KCSE — Mean Grade: C Plain</p>
-    </div>
-  </div>
-</section>
+    <section id="achievements">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Progress through practical work</p><h2>Achievements</h2><p class="muted">Milestones earned through building, testing and improving real project prototypes.</p></div>
+        <div class="project-grid">
+          <article class="project">
+            <span class="status">Project delivery</span>
+            <h3>Built and deployed web applications</h3>
+            <p>Developed practical web projects and published working versions using GitHub and Vercel, including Thika FishLink and Stellah's Poultry Shop.</p>
+          </article>
+          <article class="project">
+            <span class="status">Backend practice</span>
+            <h3>Database design and access control</h3>
+            <p>Gained hands-on experience with PostgreSQL, Supabase, SQL migrations, authentication concepts, role-based permissions and Row Level Security.</p>
+          </article>
+          <article class="project">
+            <span class="status">Security validation</span>
+            <h3>Tested data-isolation rules</h3>
+            <p>Worked through isolated validation tests for customer and seller data access, listing visibility and authorization checks in Thika FishLink.</p>
+          </article>
+          <article class="project">
+            <span class="status">Integration testing</span>
+            <h3>Explored M-PESA Daraja</h3>
+            <p>Implemented and tested a sandbox M-PESA payment workflow for Stellah's Poultry Shop. This milestone reflects sandbox testing, not live payment processing.</p>
+          </article>
+          <article class="project">
+            <span class="status">User experience</span>
+            <h3>Built responsive, bilingual interfaces</h3>
+            <p>Practised mobile-friendly layouts and English–Kiswahili interface support for community and small-business application ideas.</p>
+          </article>
+          <article class="project">
+            <span class="status">Community innovation</span>
+            <h3>Applied technology to local challenges</h3>
+            <p>Developed fish-marketplace concepts through Pwani FishLink and Thika FishLink, exploring practical digital opportunities in the Blue Economy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<section id="skills">
-  <h2 class="section-title">My Skills</h2>
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Selected work</p><h2>Projects</h2><p class="muted">A selection of practical projects and prototypes. Development status is shown honestly.</p></div>
+        <div class="project-grid">
+          <article class="project featured">
+            <span class="status">In development · Pilot preparation</span>
+            <h3>Thika FishLink</h3>
+            <p>A local fish marketplace and delivery-coordination platform concept for Kiambu County. The project focuses on connecting fish sellers and customers, with listing review, user roles and a bilingual-friendly experience.</p>
+            <p><strong>Project experience:</strong> HTML, CSS, JavaScript, PostgreSQL, Supabase, database policies and access control.</p>
+            <div class="links"><a href="https://thika-fishlink.vercel.app" target="_blank" rel="noopener noreferrer">View website</a><a href="https://github.com/geffrashid09-lab/thika-fishlink" target="_blank" rel="noopener noreferrer">Source code</a></div>
+          </article>
+          <article class="project">
+            <span class="status">Prototype / development</span>
+            <h3>Stellah's Poultry Shop</h3>
+            <p>A mobile-friendly digital solution concept for a small poultry business, exploring customer orders, stock and batch management, and English–Kiswahili usability.</p>
+            <p><strong>Project experience:</strong> JavaScript, responsive web design, business workflows and M-PESA sandbox integration testing.</p>
+            <div class="links"><a href="https://stellahs-poultry-shop.vercel.app" target="_blank" rel="noopener noreferrer">View website</a><a href="https://github.com/geffrashid09-lab/stellahs-poultry-shop" target="_blank" rel="noopener noreferrer">Source code</a></div>
+          </article>
+          <article class="project">
+            <span class="status">Prototype</span>
+            <h3>Yatta Technical and Vocational College</h3>
+            <p>A prototype concept for a digital platform for Yatta Technical and Vocational College.</p>
+            <p><strong>Institution motto:</strong> Technology is the future.</p>
+          </article>
+          <article class="project">
+            <span class="status">Earlier project experience</span>
+            <h3>Pwani FishLink · OceanHack</h3>
+            <p>An earlier fish-marketplace project developed around the OceanHack experience, helping me practise web development and think about digital solutions for the Blue Economy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <div class="skills">
-    <div class="skill">HTML & CSS</div>
-    <div class="skill">JavaScript</div>
-    <div class="skill">Web Development</div>
-    <div class="skill">Computer Networking</div>
-    <div class="skill">Database Concepts</div>
-    <div class="skill">Git & GitHub</div>
-    <div class="skill">ICT Support</div>
-    <div class="skill">Problem Solving</div>
-  </div>
-</section>
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">Let's connect</p><h2>Contact</h2></div>
+        <div class="panel contact-card">
+          <p>I'm open to learning opportunities, collaboration, feedback and conversations about practical technology projects.</p>
+          <p><strong>Email:</strong> <a href="mailto:geffrashid09@gmail.com">geffrashid09@gmail.com</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/geffrashid09-lab" target="_blank" rel="noopener noreferrer">github.com/geffrashid09-lab</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<section id="projects">
-  <h2 class="section-title">My Projects</h2>
-
-  <div class="projects">
-
-    <div class="project">
-      <h3>Yatta Technical And Vocational College System</h3>
-      <p>
-        A prototype concept for a digital platform for
-        Yatta Technical And Vocational College.
-      </p>
-      <p><strong>Motto:</strong> Technology is the future</p>
-    </div>
-
-    <div class="project">
-      <h3>Personal Portfolio Website</h3>
-      <p>
-        A responsive portfolio website showcasing my education,
-        technical skills, projects and professional information.
-      </p>
-    </div>
-
-    <div class="project">
-      <h3>GitHub Projects</h3>
-      <p>
-        My GitHub repository contains my coding projects and
-        practical experiments as I continue developing my ICT skills.
-      </p>
-      <br>
-      <a href="https://github.com/geffrashid09-lab" class="btn" target="_blank">
-        View GitHub
-      </a>
-    </div>
-
-  </div>
-</section>
-
-<section id="contact">
-  <h2 class="section-title">Contact Me</h2>
-
-  <div class="contact-box">
-    <p><strong>Email:</strong> geffrashid09@gmail.com</p>
-    <p>
-      <strong>GitHub:</strong>
-      <a href="https://github.com/geffrashid09-lab" target="_blank">
-        github.com/geffrashid09-lab
-      </a>
-    </p>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 Jeff Mulwa. All Rights Reserved.</p>
-  <p>ICT Student & Technology Enthusiast</p>
-</footer>
-
+  <footer><div class="wrap"><span>© 2026 Jeff Mulwa</span><span>ICT Undergraduate · Building practical digital solutions</span></div></footer>
 </body>
 </html>
