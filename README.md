@@ -57,5 +57,6 @@ I am continuing to build a strong foundation in programming, computer science, d
 
 - **Email:** [geffrashid09@gmail.com](mailto:geffrashid09@gmail.com)
 - **GitHub:** [geffrashid09-lab](https://github.com/geffrashid09-lab)
+- **LinkedIn:** 
 
 Thank you for visiting my portfolio. I welcome constructive feedback, learning opportunities and collaboration on practical technology projects.
