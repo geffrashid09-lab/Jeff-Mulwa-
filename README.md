@@ -1,18 +1,19 @@
 # Jeff Mulwa — ICT Portfolio
 
-Welcome to my developer portfolio. I am an **ICT undergraduate at Mount Kenya University** building practical digital solutions while developing my skills in web development, databases and backend engineering.
+I am an ICT undergraduate at Mount Kenya University, building practical digital solutions while developing my skills in web development, databases and backend engineering.
 
 My approach is to learn by building: understand a problem, design a useful solution, implement it, test it and improve it through feedback.
 
 ## About me
 
-- **Education:** Bachelor-level ICT studies, Mount Kenya University (currently studying)
+- **Education:** Undergraduate studies in Information and Communication Technology (ICT), Mount Kenya University
 - **Interests:** Full-stack development, backend engineering, database systems and technology for community development
-- **Current focus:** Strengthening JavaScript, SQL, PostgreSQL, authentication, API design, application security and deployment skills
+- **Current focus:** JavaScript, SQL, PostgreSQL, authentication, API design, application security, testing and deployment
+- **Location:** Kenya
 
 ## Skills and technologies
 
-These are technologies and concepts I have worked with in coursework and practical projects. My experience is developing, and I continue to improve through implementation and testing.
+These reflect technologies and concepts I have used in coursework and practical projects. My experience is developing, and I continue to improve through implementation and testing.
 
 - **Frontend:** HTML5, CSS3, JavaScript, responsive layouts and accessible interfaces
 - **Backend and data:** SQL, PostgreSQL, Supabase, relational database design and REST API concepts
@@ -24,48 +25,39 @@ These are technologies and concepts I have worked with in coursework and practic
 
 ### 1. Thika FishLink
 
-A community-focused fish marketplace and delivery-coordination platform being developed for Thika and the wider Kiambu County area. It aims to connect fish farmers, traders and customers through verified supplier applications, fish listings and order requests.
+A community-focused fish marketplace and delivery-coordination platform being developed for Thika and the wider Kiambu County area. It aims to connect fish farmers, traders and customers through supplier applications, verified fish listings and order requests.
 
 **Technology:** HTML, CSS, JavaScript, Supabase/PostgreSQL and Vercel.
 
-**Current stage:** Development and pilot preparation. The project is being strengthened and tested before wider real-world use.
+**Current stage:** Development and controlled pilot preparation. End-to-end workflow verification, production release checks and onboarding of genuine suppliers remain before a wider pilot.
 
+- [Project website](https://thika-fishlink.vercel.app)
 - [Project repository](https://github.com/geffrashid09-lab/thika-fishlink)
 
 ### 2. Stellah’s Poultry Shop
 
-A digital shop and management prototype for a small poultry business. The project explores customer orders, poultry batch and stock records, delivery or collection workflows, and English/Kiswahili support.
+A digital shop and business-management solution for a small poultry business in Thika. The project explores customer order requests, separate broiler and kienyeji batches, stock and sales records, delivery or collection workflows, and English/Kiswahili usability.
 
-**Current stage:** Prototype and ongoing development, including payment-flow testing in a sandbox environment.
+**Technology explored:** HTML, CSS, JavaScript, Supabase, authentication, database workflows and M-PESA Daraja sandbox testing.
 
-- [Project repository](https://github.com/geffrashid09-lab/stellahs-poultry-shop)
+**Current stage:** Ongoing development. Staff permissions, shared database-backed records, order validation and end-to-end operational testing still need completion. M-PESA work is sandbox/integration work and is not represented as live payment processing.
+
 - [Project website](https://stellahs-poultry-shop.vercel.app)
+- [Project repository](https://github.com/geffrashid09-lab/stellahs-poultry-shop)
 
-### 3. Swahilipot Attachee Connect — collaborative project
+## Achievements and learning
 
-A collaborative institutional platform initiative connected to Swahilipot Hub, designed to digitise attachee onboarding, departmental workflows, supervisor reviews and HR approvals.
+- **HudumaBox:** Entrepreneurship training certificate.
+- **DigiKen:** Digital skills training certificate.
+- **Swahilipot:** 2026 hackathon participation certificate.
+- Built and deployed practical web application prototypes using GitHub and Vercel.
+- Practised relational database design, SQL migrations, authentication concepts, role-based permissions and Row Level Security.
+- Explored M-PESA Daraja integration in a sandbox environment.
 
-**Backend approaches explored:**
-- **Firebase track:** Firebase Authentication, Cloud Firestore, trusted account provisioning, typed data contracts, role-based workflows and automated tests. Related work is preserved in the repository's Firebase branches and pull requests.
-- **Supabase track:** PostgreSQL schema and migrations, Supabase Authentication, six application roles, role-assignment workflows and Row Level Security (RLS) policies across the institutional data model.
+## Education
 
-These are two backend implementation approaches explored in the same collaborative project—not two backends currently running together. The team is progressing the Supabase implementation through [PR #19](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect/pull/19), while the earlier Firebase work remains available in GitHub history and its related pull requests.
-
-**My learning experience:** Collaborative GitHub workflows, backend architecture trade-offs, authentication, role-based access control, database migrations, data isolation and security-focused testing.
-
-**Current stage:** In development; backend verification, department-level RLS tests and local setup documentation remain part of the completion work.
-
-- [Project repository](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect)
-- [Supabase implementation — PR #19](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect/pull/19)
-- [Firebase implementation pull requests](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect/pulls?q=is%3Apr+Firebase)
-
-### 4. Pwani FishLink — OceanHack
-
-An earlier fish-marketplace concept developed for an OceanHack presentation context. It helped me practise building a practical web interface and exploring how digital tools can improve connections in the fish value chain.
-
-### 5. Yatta Technical and Vocational College prototype
-
-A website prototype concept for Yatta Technical and Vocational College, using the institution's motto: **“Technology is the future”.**
+- **Mount Kenya University** — Undergraduate studies in Information and Communication Technology (ICT).
+- **Kenya Certificate of Secondary Education** — Mean Grade: C Plain.
 
 ## Learning goals
 
@@ -77,3 +69,7 @@ I am continuing to build a strong foundation in programming, computer science, d
 - **GitHub:** [geffrashid09-lab](https://github.com/geffrashid09-lab)
 
 Thank you for visiting my portfolio. I welcome constructive feedback, learning opportunities and collaboration on practical technology projects.
+
+---
+
+*Project statuses are kept honest and updated as implementation and testing progress.*
