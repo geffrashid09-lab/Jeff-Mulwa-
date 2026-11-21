@@ -41,11 +41,21 @@ A digital shop and management prototype for a small poultry business. The projec
 - [Project repository](https://github.com/geffrashid09-lab/stellahs-poultry-shop)
 - [Project website](https://stellahs-poultry-shop.vercel.app)
 
-### 3. Pwani FishLink — OceanHack
+### 3. Swahilipot Attachee Connect — collaborative project
+
+A collaborative platform initiative connected to Swahilipot Hub, focused on digitising attachment onboarding and approvals. Attachees submit their details, supervisors complete their section, and HR reviews, approves, signs and retains the records.
+
+**Project experience:** Collaborative software development, backend workflows, authentication and role-based access.
+
+**Technology explored:** Firebase Authentication, Firestore, email verification and automated testing.
+
+**Current stage:** Ongoing development and preparation for a controlled pilot.
+
+### 4. Pwani FishLink — OceanHack
 
 An earlier fish-marketplace concept developed for an OceanHack presentation context. It helped me practise building a practical web interface and exploring how digital tools can improve connections in the fish value chain.
 
-### 4. Yatta Technical and Vocational College prototype
+### 5. Yatta Technical and Vocational College prototype
 
 A website prototype concept for Yatta Technical and Vocational College, using the institution's motto: **“Technology is the future”.**
 
