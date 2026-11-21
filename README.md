@@ -43,13 +43,21 @@ A digital shop and management prototype for a small poultry business. The projec
 
 ### 3. Swahilipot Attachee Connect — collaborative project
 
-A collaborative platform initiative connected to Swahilipot Hub, focused on digitising attachment onboarding and approvals. Attachees submit their details, supervisors complete their section, and HR reviews, approves, signs and retains the records.
+A collaborative institutional platform initiative connected to Swahilipot Hub, designed to digitise attachee onboarding, departmental workflows, supervisor reviews and HR approvals.
 
-**Project experience:** Collaborative software development, backend workflows, authentication and role-based access.
+**Backend approaches explored:**
+- **Firebase track:** Firebase Authentication, Cloud Firestore, trusted account provisioning, typed data contracts, role-based workflows and automated tests. Related work is preserved in the repository's Firebase branches and pull requests.
+- **Supabase track:** PostgreSQL schema and migrations, Supabase Authentication, six application roles, role-assignment workflows and Row Level Security (RLS) policies across the institutional data model.
 
-**Technology explored:** Firebase Authentication, Firestore, email verification and automated testing.
+These are two backend implementation approaches explored in the same collaborative project—not two backends currently running together. The team is progressing the Supabase implementation through [PR #19](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect/pull/19), while the earlier Firebase work remains available in GitHub history and its related pull requests.
 
-**Current stage:** Ongoing development and preparation for a controlled pilot.
+**My learning experience:** Collaborative GitHub workflows, backend architecture trade-offs, authentication, role-based access control, database migrations, data isolation and security-focused testing.
+
+**Current stage:** In development; backend verification, department-level RLS tests and local setup documentation remain part of the completion work.
+
+- [Project repository](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect)
+- [Supabase implementation — PR #19](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect/pull/19)
+- [Firebase implementation pull requests](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect/pulls?q=is%3Apr+Firebase)
 
 ### 4. Pwani FishLink — OceanHack
 
