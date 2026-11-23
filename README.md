@@ -45,6 +45,19 @@ A digital shop and business-management solution for a small poultry business in 
 - [Project website](https://stellahs-poultry-shop.vercel.app)
 - **Source code:** Private repository; access can be shared on request.
 
+### 3. SwahiliPot Connect (collaborative project)
+
+An institutional attachment and staff portal being developed collaboratively for Swahilipot. It is designed to support HR, departments, supervisors, staff and attachées through role-aware workspaces, placements, progress tracking, weekly reports, learning resources and direct messaging.
+
+**Technology:** React 19, TypeScript, Vite, Supabase Auth, PostgreSQL, Row Level Security (RLS), Supabase Realtime and GitHub Actions.
+
+**My involvement:** Collaborative project work and technical communication around the institutional platform and its Supabase-backed architecture. This is presented as a collaborative achievement, not as a solo-authored application.
+
+**Current stage:** Working backend-connected foundation on the `feat/institutional-platform` draft branch. The institutional implementation has nine application tables with RLS, and 13 migrations are recorded as applied to the hosted Supabase project. Institutional onboarding, final review and production approval remain outstanding. No real users, departments, placements or messages have been seeded.
+
+- [Project repository](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect)
+- [Institutional implementation PR #19](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect/pull/19)
+
 ## Achievements and learning
 
 - **HudumaBox:** Entrepreneurship training certificate.
