@@ -43,7 +43,7 @@ A digital shop and business-management solution for a small poultry business in 
 **Current stage:** Ongoing development. Staff permissions, shared database-backed records, order validation and end-to-end operational testing still need completion. M-PESA work is sandbox/integration work and is not represented as live payment processing.
 
 - [Project website](https://stellahs-poultry-shop.vercel.app)
-- [Project repository](https://github.com/geffrashid09-lab/stellahs-poultry-shop)
+- **Source code:** Private repository; access can be shared on request.
 
 ## Achievements and learning
 
