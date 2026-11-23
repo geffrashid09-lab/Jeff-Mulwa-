@@ -1,6 +1,6 @@
-# Jeff Mulwa — ICT Portfolio
+# Geoffrey Mutinda (also known as Jef Mulwa) — ICT Portfolio
 
-I am an ICT undergraduate at Mount Kenya University, building practical digital solutions while developing my skills in web development, databases and backend engineering.
+I am Geoffrey Mutinda, also known as Jef Mulwa, an ICT undergraduate at Mount Kenya University building practical digital solutions while developing my skills in web development, databases and backend engineering.
 
 My approach is to learn by building: understand a problem, design a useful solution, implement it, test it and improve it through feedback.
 
