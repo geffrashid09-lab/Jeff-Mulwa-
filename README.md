@@ -20,7 +20,7 @@ These reflect technologies and concepts I have used in coursework and practical 
 - **Networking:** LAN setup, IP addressing, network cabling and basic router configuration
 - **Programming and frontend:** HTML5, CSS3, JavaScript, basic Python and C, responsive layouts
 - **Backend and data:** SQL, PostgreSQL, Supabase, relational database design and REST API concepts
-- **Tools and deployment:** Git, GitHub, PowerShell, Supabase CLI and Vercel
+- **Tools and deployment:** Git, GitHub, PowerShell, Supabase CLI, Vercel and Render (static-site hosting and Git-connected deployments)
 - **Workplace skills:** Typing, data entry, customer support, communication, teamwork and problem-solving
 
 ## Practical ICT experience
@@ -63,6 +63,7 @@ A digital shop and business-management solution for a small poultry business in 
 - **DigiKen:** Digital skills training certificate.
 - **Swahilipot:** 2026 hackathon participation certificate.
 - Built and deployed practical web application prototypes using GitHub and Vercel.
+- Configured and maintained this portfolio as a Render Static Site connected to GitHub, using automatic deployments from the main branch and checking deployment status.
 - Practised relational database design, SQL migrations, authentication concepts, role-based permissions and Row Level Security.
 - Explored M-PESA Daraja integration in a sandbox environment.
 
