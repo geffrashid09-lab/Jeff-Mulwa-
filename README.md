@@ -18,7 +18,7 @@ These reflect technologies and concepts I have used in coursework and practical 
 
 - **IT support and hardware:** PC assembly, hardware troubleshooting, computer maintenance, Windows and application installation, antivirus installation, MS Office and basic user support
 - **Networking:** LAN setup, IP addressing, network cabling and basic router configuration
-- **Programming and frontend:** HTML5, CSS3, JavaScript, basic Python and C, responsive layouts
+- **Programming and frontend:** HTML5, CSS3, JavaScript, Node.js (practical experience building Vercel serverless functions), basic Python and C, responsive layouts
 - **Backend and data:** SQL, PostgreSQL, Supabase, relational database design and REST API concepts
 - **Tools and deployment:** Git, GitHub, PowerShell, Supabase CLI, Vercel, Render (static-site hosting and Git-connected deployments) and WordPress (website prototyping)
 - **Workplace skills:** Typing, data entry, customer support, communication, teamwork and problem-solving
@@ -55,7 +55,7 @@ A community-focused fish marketplace and delivery-coordination platform being de
 
 A digital shop and business-management solution for a small poultry business in Thika. The project explores customer order requests, separate broiler and kienyeji batches, stock and sales records, delivery or collection workflows, and English/Kiswahili usability.
 
-**Technology explored:** HTML, CSS, JavaScript, Supabase, authentication, database workflows and M-PESA Daraja sandbox testing.
+**Technology explored:** HTML, CSS, JavaScript, Node.js serverless functions on Vercel, API request handling, order validation, Supabase, authentication, database workflows and M-PESA Daraja sandbox testing.
 
 **Current stage:** Ongoing development. Staff permissions, shared database-backed records, order validation and end-to-end operational testing still need completion. M-PESA work is sandbox/integration work and is not represented as live payment processing.
 
@@ -79,7 +79,8 @@ A WordPress-based website prototype for Yatta Technical and Vocational College, 
 - Built and deployed practical web application prototypes using GitHub and Vercel.
 - Configured and maintained this portfolio as a Render Static Site connected to GitHub, using automatic deployments from the main branch and checking deployment status.
 - Practised relational database design, SQL migrations, authentication concepts, role-based permissions and Row Level Security.
-- Explored M-PESA Daraja integration in a sandbox environment.
+- Built practical Node.js experience through Vercel serverless API functions for the Stellah’s Poultry Shop project, including request handling and order validation.
+- Explored M-PESA Daraja integration in a sandbox environment; this is not live payment processing.
 
 ## Education
 
