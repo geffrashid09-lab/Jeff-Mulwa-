@@ -36,6 +36,7 @@ These reflect technologies and concepts I have used in coursework and practical 
 
 - Helped set up and run LAN networking for the PIW at Swahilipot.
 - Assisted with server cleaning and basic equipment maintenance.
+- Connected projectors for the Bolt event at Swahilipot.
 - Checked LED screen status during the Blue Economy event and Swahili Cultural Festival at Swahilipot.
 
 ## Selected projects
