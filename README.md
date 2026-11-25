@@ -32,6 +32,11 @@ These reflect technologies and concepts I have used in coursework and practical 
 - Provided basic technical support to students and staff.
 - Practised network cabling and small LAN setups during class projects.
 
+**IT Support Attachment — Swahilipot**
+
+- Helped set up and run LAN networking for the PIW at Swahilipot.
+- Assisted with server cleaning and basic equipment maintenance.
+
 ## Selected projects
 
 ### 1. Thika FishLink
