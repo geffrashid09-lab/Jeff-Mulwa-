@@ -1,6 +1,6 @@
-# Geoffrey Mutinda (also known as Jef Mulwa) — ICT Portfolio
+# Geoffrey Mutinda (also known as Jeff Mulwa) — ICT Portfolio
 
-I am Geoffrey Mutinda, also known as Jef Mulwa, a Nairobi-based ICT undergraduate at Mount Kenya University and ICT Certificate trainee at Yatta Technical and Vocational College. I am developing practical skills in IT support, computer maintenance, networking and software development.
+I am Geoffrey Mutinda, also known as Jeff Mulwa, a Nairobi-based ICT undergraduate at Mount Kenya University and ICT Certificate trainee at Yatta Technical and Vocational College. I am developing practical skills in IT support, computer maintenance, networking and software development.
 
 My approach is to learn by building: understand a problem, design a useful solution, implement it, test it and improve it through feedback.
 
@@ -70,7 +70,7 @@ A digital shop and business-management solution for a small poultry business in 
 
 - **Mount Kenya University** — Undergraduate studies in Information and Communication Technology (ICT).
 - **Yatta Technical and Vocational College** — Certificate in Information Communication Technology (ICT), 2026–present; sponsored through the KCB Tujiajiri Scholarship (2026).
-- **St. Michael Secondary School** — Kenya Certificate of Secondary Education (KCSE), 2021–2024.
+- **St. Michael Secondary School** — Kenya Certificate of Secondary Education (KCSE), 2021–2024; **Mean Grade: C Plain**.
 
 ## Learning goals
 
