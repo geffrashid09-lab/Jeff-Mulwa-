@@ -20,7 +20,7 @@ These reflect technologies and concepts I have used in coursework and practical 
 - **Networking:** LAN setup, IP addressing, network cabling and basic router configuration
 - **Programming and frontend:** HTML5, CSS3, JavaScript, basic Python and C, responsive layouts
 - **Backend and data:** SQL, PostgreSQL, Supabase, relational database design and REST API concepts
-- **Tools and deployment:** Git, GitHub, PowerShell, Supabase CLI, Vercel and Render (static-site hosting and Git-connected deployments)
+- **Tools and deployment:** Git, GitHub, PowerShell, Supabase CLI, Vercel, Render (static-site hosting and Git-connected deployments) and WordPress (website prototyping)
 - **Workplace skills:** Typing, data entry, customer support, communication, teamwork and problem-solving
 
 ## Practical ICT experience
@@ -55,6 +55,14 @@ A digital shop and business-management solution for a small poultry business in 
 
 - [Project website](https://stellahs-poultry-shop.vercel.app)
 - **Source code:** Private repository; access can be shared on request.
+
+### 3. Yatta Technical and Vocational College — Student Website Prototype
+
+A WordPress-based website prototype for Yatta Technical and Vocational College, using the institution name and motto, “Technology is the future,” as the foundation for a student-focused digital presence.
+
+**Technology and experience:** WordPress content management and website prototyping.
+
+**Current stage:** Prototype work; no public demo link is currently listed.
 
 ## Achievements and learning
 
