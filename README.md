@@ -1,25 +1,36 @@
 # Geoffrey Mutinda (also known as Jef Mulwa) — ICT Portfolio
 
-I am Geoffrey Mutinda, also known as Jef Mulwa, an ICT undergraduate at Mount Kenya University building practical digital solutions while developing my skills in web development, databases and backend engineering.
+I am Geoffrey Mutinda, also known as Jef Mulwa, a Nairobi-based ICT undergraduate at Mount Kenya University and ICT Certificate trainee at Yatta Technical and Vocational College. I am developing practical skills in IT support, computer maintenance, networking and software development.
 
 My approach is to learn by building: understand a problem, design a useful solution, implement it, test it and improve it through feedback.
 
 ## About me
 
-- **Education:** Undergraduate studies in Information and Communication Technology (ICT), Mount Kenya University
+- **Education:** Undergraduate studies in ICT at Mount Kenya University; Certificate in ICT at Yatta Technical and Vocational College (2026–present)
+- **Scholarship:** KCB Tujiajiri Scholarship — 2026 ICT training sponsorship
 - **Interests:** Full-stack development, backend engineering, database systems and technology for community development
 - **Current focus:** JavaScript, SQL, PostgreSQL, authentication, API design, application security, testing and deployment
-- **Location:** Kenya
+- **Location:** Nairobi, Kenya
 
 ## Skills and technologies
 
 These reflect technologies and concepts I have used in coursework and practical projects. My experience is developing, and I continue to improve through implementation and testing.
 
-- **Frontend:** HTML5, CSS3, JavaScript, responsive layouts and accessible interfaces
+- **IT support and hardware:** PC assembly, hardware troubleshooting, computer maintenance, Windows and application installation, antivirus installation, MS Office and basic user support
+- **Networking:** LAN setup, IP addressing, network cabling and basic router configuration
+- **Programming and frontend:** HTML5, CSS3, JavaScript, basic Python and C, responsive layouts
 - **Backend and data:** SQL, PostgreSQL, Supabase, relational database design and REST API concepts
-- **Application security:** Authentication, role-based access control, Row Level Security (RLS), input validation and permission testing
 - **Tools and deployment:** Git, GitHub, PowerShell, Supabase CLI and Vercel
-- **Product experience:** English/Kiswahili interfaces and practical workflows for local users
+- **Workplace skills:** Typing, data entry, customer support, communication, teamwork and problem-solving
+
+## Practical ICT experience
+
+**ICT Student — Yatta Technical and Vocational College (2026–present)**
+
+- Assembled and configured desktop computers for the college lab.
+- Installed operating systems and applications.
+- Provided basic technical support to students and staff.
+- Practised network cabling and small LAN setups during class projects.
 
 ## Selected projects
 
@@ -45,21 +56,9 @@ A digital shop and business-management solution for a small poultry business in 
 - [Project website](https://stellahs-poultry-shop.vercel.app)
 - **Source code:** Private repository; access can be shared on request.
 
-### 3. SwahiliPot Connect (collaborative project)
-
-An institutional attachment and staff portal being developed collaboratively for Swahilipot. It is designed to support HR, departments, supervisors, staff and attachées through role-aware workspaces, placements, progress tracking, weekly reports, learning resources and direct messaging.
-
-**Technology:** React 19, TypeScript, Vite, Supabase Auth, PostgreSQL, Row Level Security (RLS), Supabase Realtime and GitHub Actions.
-
-**My involvement:** Collaborative project work and technical communication around the institutional platform and its Supabase-backed architecture. This is presented as a collaborative achievement, not as a solo-authored application.
-
-**Current stage:** Working backend-connected foundation on the `feat/institutional-platform` draft branch. The institutional implementation has nine application tables with RLS, and 13 migrations are recorded as applied to the hosted Supabase project. Institutional onboarding, final review and production approval remain outstanding. No real users, departments, placements or messages have been seeded.
-
-- [Project repository](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect)
-- [Institutional implementation PR #19](https://github.com/dulladollar254-ux/Swahilipot-Attachee-connect/pull/19)
-
 ## Achievements and learning
 
+- **KCB Tujiajiri Scholarship (2026):** Sponsorship for ICT Certificate training at Yatta Technical and Vocational College.
 - **HudumaBox:** Entrepreneurship training certificate.
 - **DigiKen:** Digital skills training certificate.
 - **Swahilipot:** 2026 hackathon participation certificate.
@@ -70,7 +69,8 @@ An institutional attachment and staff portal being developed collaboratively for
 ## Education
 
 - **Mount Kenya University** — Undergraduate studies in Information and Communication Technology (ICT).
-- **Kenya Certificate of Secondary Education** — Mean Grade: C Plain.
+- **Yatta Technical and Vocational College** — Certificate in Information Communication Technology (ICT), 2026–present; sponsored through the KCB Tujiajiri Scholarship (2026).
+- **St. Michael Secondary School** — Kenya Certificate of Secondary Education (KCSE), 2021–2024.
 
 ## Learning goals
 
