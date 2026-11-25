@@ -7,7 +7,7 @@ My approach is to learn by building: understand a problem, design a useful solut
 ## About me
 
 - **Education:** Undergraduate studies in ICT at Mount Kenya University; Certificate in ICT at Yatta Technical and Vocational College (2026–present)
-- **Scholarship:** KCB Tujiajiri Scholarship — 2026 ICT training sponsorship
+- **Scholarship:** My 2026 ICT Certificate training at Yatta Technical and Vocational College is supported through the KCB Tujiajiri Scholarship.
 - **Interests:** Full-stack development, backend engineering, database systems and technology for community development
 - **Current focus:** JavaScript, SQL, PostgreSQL, authentication, API design, application security, testing and deployment
 - **Location:** Kenya
@@ -58,7 +58,7 @@ A digital shop and business-management solution for a small poultry business in 
 
 ## Achievements and learning
 
-- **KCB Tujiajiri Scholarship (2026):** Sponsorship for ICT Certificate training at Yatta Technical and Vocational College.
+- **KCB Tujiajiri Scholarship (2026):** Supports my ICT Certificate training at Yatta Technical and Vocational College. KCB Foundation describes Tujiajiri as a vocational-skills and enterprise-development programme delivered through participating training institutions ([programme information](https://foundation.kcbgroup.com/programs/2jiajiri/)).
 - **HudumaBox:** Entrepreneurship training certificate.
 - **DigiKen:** Digital skills training certificate.
 - **Swahilipot:** 2026 hackathon participation certificate.
@@ -69,7 +69,7 @@ A digital shop and business-management solution for a small poultry business in 
 ## Education
 
 - **Mount Kenya University** — Undergraduate studies in Information and Communication Technology (ICT).
-- **Yatta Technical and Vocational College** — Certificate in Information Communication Technology (ICT), 2026–present; sponsored through the KCB Tujiajiri Scholarship (2026).
+- **Yatta Technical and Vocational College** — Certificate in Information Communication Technology (ICT), 2026–present; my training is supported through the KCB Tujiajiri Scholarship.
 - **St. Michael Secondary School** — Kenya Certificate of Secondary Education (KCSE), 2021–2024; **Mean Grade: C Plain**.
 
 ## Learning goals
